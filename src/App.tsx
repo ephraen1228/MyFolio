@@ -262,6 +262,13 @@ function Skills() {
 
 const projects = [
   {
+    title: 'NoteStack',
+    description: 'Cloud Notes App with Authentication.',
+    tags: ['React', 'Vercel', 'Supabase', 'Authentication'],
+    demo: 'https://notestack-wine.vercel.app/',
+    github: 'https://github.com/ephraen1228/notestack.git',
+  },
+  {
     title: 'SpendSight',
     description: 'Personal Finance Dashboard with Analytics.',
     tags: ['React', 'Supabase', 'Claude API'],
@@ -329,12 +336,16 @@ function Projects() {
               <div className="flex gap-3">
                 <a
                   href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1 text-center text-sm font-medium px-4 py-2.5 rounded-lg border border-teal/40 text-teal hover:bg-teal/10 transition-all duration-200"
                 >
                   Live Demo
                 </a>
                 <a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1 text-center text-sm font-medium px-4 py-2.5 rounded-lg bg-white/[0.06] text-white/70 hover:bg-white/[0.1] transition-all duration-200 flex items-center justify-center gap-2"
                 >
                   <Github size={14} />
