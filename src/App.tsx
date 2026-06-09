@@ -260,20 +260,20 @@ function Skills() {
   );
 }
 
-const projects = [
+const projects = [  
+  {
+    title: 'SpendSight',
+    description: 'Personal Finance Dashboard with Analytics.',
+    tags: ['React', 'Supabase', 'Claude API'],
+    demo: 'https://spendsight-ten.vercel.app/',
+    github: 'https://github.com/ephraen1228/spendsight.git',
+  },
   {
     title: 'NoteStack',
     description: 'Cloud Notes App with Authentication.',
     tags: ['React', 'Vercel', 'Supabase', 'Authentication'],
     demo: 'https://notestack-wine.vercel.app/',
     github: 'https://github.com/ephraen1228/notestack.git',
-  },
-  {
-    title: 'SpendSight',
-    description: 'Personal Finance Dashboard with Analytics.',
-    tags: ['React', 'Supabase', 'Claude API'],
-    demo: '#',
-    github: '#',
   },
   {
     title: 'IdeaForge',
