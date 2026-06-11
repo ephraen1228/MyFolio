@@ -272,7 +272,7 @@ const projects = [
     title: 'NoteStack',
     description: 'Cloud Notes App with Authentication.',
     tags: ['React', 'Vercel', 'Supabase', 'Authentication'],
-    demo: 'https://notestack-wine.vercel.app/',
+    demo: 'https://notestack-lemon.vercel.app/',
     github: 'https://github.com/ephraen1228/notestack.git',
   },
   {
